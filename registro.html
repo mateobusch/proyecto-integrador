@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Craftsy</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header class="Menu">
+            <a href="./index.html"><img class="Logo_imagen_header" src="./img/logo.png" alt="Logo"></a>
+            <nav>
+                <ul class="Menu_header">
+                    <li class="Menu_header_1"><a class="Menu_header_2" href="#">SMARTPHONES</a></li>
+                    <li class="Menu_header_1"><a class="Menu_header_2" href="#">TABLETS</a></li>
+                    <li class="Menu_header_1"><a class="Menu_header_2" href="#">COMPUTADORAS</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul class="Usuario_header">
+                    <li class="Log_in_header"><a class="Usuario_1_header" href="./login.html">LOGIN</a></li>
+                    <li class="Registro_header"><a class="Usuario_1_header" href="#">REGISTRO</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <article class="Titulo">
+                <h1>REGISTRATE</h1>
+            </article>
+            <article class="Formulario_registro">
+                <form action="index.html" method="get">
+                    <div class="Formulario_1">
+                        <label for="email">Email</label>
+                        <br><input class="Texto_1" type="email" id="email" name="mail" value="" placeholder="Ingresa de email" required>
+                        <p class="Obligatorio">Obligatorio.</p>
+                    </div>
+                    <div class="Formulario_1">
+                        <label for="Contraseña">Contraseña</label>
+                        <br><input class="Texto_1" type="password" id="contraseña" name="contraseña" value="" placeholder="Ingresa tu contraseña" required>
+                        <p class="Obligatorio">Obligatorio.</p>
+                    </div>
+                    <div class="Formulario_1">
+                        <label for="Contraseña">Repetir contraseña</label>
+                        <br><input class="Texto_1" type="password" id="contraseña" name="contraseña" value="" placeholder="Ingresa tu contraseña" required>
+                        <p class="Obligatorio">Obligatorio.</p>
+                    </div>
+                    <div class="Formulario_1">
+                        <input type="checkbox" id="terminos" name="terminos" value="">
+                        <label for="terminos">Acepto los terminos y condiciones.</label>
+                    </div>
+                    <div>
+                        <button class="Boton" type="submit">Registrarme</button>
+                        <button class="Boton" type="reset"> Cancelar</button>
+                    </div>
+                </form>
+            </article>
+        </section>
+    </body>
+</html>

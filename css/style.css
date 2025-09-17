@@ -1,0 +1,303 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../img/background_menu.jpg);
+}
+
+.Menu{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    margin-right: 150px;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-top: 10px;
+    display: flex;
+    width: 1140px;
+    height: 70px;
+}
+
+.Logo_imagen_header{
+    margin: 5px 5px;
+    height: 70px;
+    width: 90px;
+}
+
+.Menu_header{
+    flex-direction: row;
+    margin: 15px 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.Menu_header_1{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+    width: 180px;
+}
+
+.Menu_header_2{
+    text-decoration: none;
+    color: white;
+}
+
+.Usuario_header{
+    justify-content: flex-end;
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+}
+
+.Log_in_header{
+    margin: 15px 5px 15px 250px;
+}
+
+.Registro_header{
+    margin: 15px 5px 15px 5px;
+}
+
+.Usuario_1_header{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.Main_total{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.Seccion_principal{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 30px 20px 0px 150px;
+    border: 2px solid black;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    width: 800px;
+}
+
+.Article_seccion_principal{
+    color: white;
+    padding: 15px;
+    width: 380px;
+}
+
+.Imagenes_seccion_principal{
+    margin: 10px 10px;
+    width: 100%;
+}
+
+.Sub-titulo_seccion_principal{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0px 10px 10px;
+}
+
+.Texto_seccion_principal{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px 0px 20px 10px;
+    font-size: smaller;
+}
+
+.Ver_mas_seccion_principal{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 71, 13);
+    margin: 10px 0px 20px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: smaller;
+    color: white;
+    padding: 8px;
+}
+
+.Cuadro_titulo_seccion_tutoriales{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 30px 100px 10px 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    align-items: center;
+    color: white;
+    display: flex;
+    width: 310px;
+    height: 50px;
+}
+
+.Titulo_seccion_tutoriales{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+
+.Articles_tutoriales{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 2px 100px 0px 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    display: flex;
+    width: 310px;
+}
+
+.Imagenes_articles_tutoriales{
+    margin: 10px;
+}
+
+.Texto_articles_tutoriales{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 5px;
+}
+
+.Cuadro_titulo_seccion_publicidad{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 30px 100px 10px 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    align-items: center;
+    color: white;
+    display: flex;
+    width: 310px;
+    height: 50px;
+}
+
+.Titulo_seccion_publicidad{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+}
+
+.Div_publicidad{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 10px 100px 0px 10px;
+    border: 2px solid black;
+    flex-direction: column;
+    border-radius: 20px;
+    color: white;
+    width: 310px;
+}
+
+.Imagenes_articles_publicidad{
+    margin: 5px;
+}
+
+.Titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    margin-top: 40px;
+    font-size: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    color: white;
+}
+
+.Formulario_login{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    margin: 20px auto;
+    flex-wrap: nowrap;
+    color: white;
+    display: flex;
+    height: 450px;
+    width: 35vw;
+}
+
+.Formulario_2{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding: 15px;
+}
+
+.Texto_1{
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgba(255, 255, 255, 0.704);
+    width:350px;
+    height:30px;
+}
+
+.Recordar{
+    justify-content: right;
+    display: flex;
+}
+
+.Combinación{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    margin: 8px;
+    color: red;
+}
+
+.Recordar_cuadrado{
+    margin-left: 5px;
+}
+
+.Boton{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 15px;
+    color: white;
+    width: 100px;
+    padding: 8px;
+    border: 0;
+}
+
+.Formulario_registro{
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px auto;
+    flex-wrap: nowrap;
+    color: white;
+    display: flex;
+    height: 450px;
+    width: 35vw;
+}
+
+.Formulario_1{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding: 15px;
+}
+
+.Obligatorio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    margin-top: 2px;
+    color: red;
+}
+
+.Sub-titulo_regitro{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.Texto_2{
+    margin-top: 5px;
+    width:200px;
+}
+
+.Bullet_1{
+    margin: 5px;
+}
+
+.Texto_3{
+    margin-top: 10px;
+    height: 40px;
+    width: 200px;
+}
