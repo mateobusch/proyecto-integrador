@@ -249,13 +249,11 @@ body{
     flex-wrap: nowrap;
     color: white;
     display: flex;
-    height: 450px;
+    height: 500px;
     width: 35vw;
 }
 
 .Formulario_1{
-    padding-right: 10px;
-    padding-left: 10px;
     padding: 15px;
 }
 
