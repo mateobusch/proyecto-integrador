@@ -294,3 +294,37 @@ body{
 ::placeholder{
     padding-left: 5px;
 }
+
+.Main_category{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+}
+.Section_category{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 30px 20px 0px 150px;
+    border: 2px solid black;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    width: 800px;
+}
+.Article_category{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 15px;
+    width: 380px;
+}
+
+.Comprar_category{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 71, 13);
+    margin: 10px 0px 20px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: smaller;
+    color: white;
+    padding: 8px;
+}
