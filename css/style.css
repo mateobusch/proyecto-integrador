@@ -315,3 +315,30 @@ body{
     padding: 15px;
     color: red;
 }
+.Seccion_1_product{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 30px 20px 0px 150px;
+    border: 2px solid black;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 556.5px;
+    display: flex;
+    height: 600px;
+}
+.Seccion_2_product{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 30px 20px 0px 10px;
+    border: 2px solid black;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 556.5px;
+    display: flex;
+    height: 600px;
+}
+.Titulo_category{
+    
+}
