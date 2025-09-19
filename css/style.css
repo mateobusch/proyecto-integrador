@@ -355,7 +355,20 @@ body{
     flex-wrap: wrap;
     width: 556.5px;
     display: flex;
-    height: 600px;
+    height: 200px;
+}
+
+.Seccion_3_product{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 30px 20px 0px 10px;
+    border: 2px solid black;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 556.5px;
+    display: flex;
+    height: 370px;
 }
 
 .Titulo_category{
@@ -367,4 +380,16 @@ body{
     border-radius: 20px;
     height: 500px;
     width: 500px;
+}
+
+.Informacion_camiseta{
+    font-size: large;
+    color: white;
+    padding: 15px;
+}
+
+.Conjunto_de_secciones_product{
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
 }
