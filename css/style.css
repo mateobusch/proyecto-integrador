@@ -357,3 +357,14 @@ body{
     display: flex;
     height: 600px;
 }
+
+.Titulo_category{
+    color: white;
+    padding: 10px;
+}
+
+.Imagen_product{
+    border-radius: 20px;
+    height: 500px;
+    width: 500px;
+}
