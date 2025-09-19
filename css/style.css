@@ -442,14 +442,23 @@ body{
     height: 70px;
     width: 85px;
     display: flex;
-    align-self: flex-start;
-    margin-right: 80px;
+    align-self: center;
+    
+    
 }
 .Menu_footer{
-    flex-direction: row;
-    margin: 15px 20px;
-    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 2px solid black;
+    align-items: center;
+    margin-right: 150px;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-top: 10px;
     display: flex;
+    width: 1140px;
+    height: 100px;
+    flex-wrap: wrap;
 }
 .Texto_footer{
     text-align: center;
