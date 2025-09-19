@@ -38,7 +38,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     list-style-type: none;
     text-align: center;
-    padding: 10px;
+    padding: 25px;
     width: 180px;
 }
 
@@ -55,7 +55,7 @@ body{
 }
 
 .Log_in_header{
-    margin: 15px 5px 15px 250px;
+    margin: 15px 5px 15px 50px;
 }
 
 .Registro_header{
@@ -327,6 +327,8 @@ body{
 }
 
 .Texto_3{
+    background-color: rgb(49, 49, 49);
+    border: 0px solid rgb(49, 49, 49);
     margin-top: 10px;
     height: 40px;
     width: 200px;
@@ -338,7 +340,8 @@ body{
 }
 
 ::placeholder{
-    padding-left: 5px;
+    padding-left: 8px;
+    color: white;
 }
 
 .Seccion_1_category{
@@ -483,4 +486,15 @@ body{
     align-self: center;
     text-align: center;
     color: white;
+}
+.Buscador_header_1{
+    margin-top: 10px;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 14px;
+    background-color: rgb(49, 49, 49);
+    border: 0px solid rgb(49, 49, 49);
+    
 }
