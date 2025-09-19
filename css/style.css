@@ -176,7 +176,7 @@ body{
     width: 100px;
 }
 
-.Cuadro_titulo_seccion_publicidad{
+.Cuadro_titulo_seccion_nosotros{
     background-color: rgba(0, 0, 0, 0.7);
     margin: 30px 100px 10px 10px;
     border: 2px solid black;
@@ -189,12 +189,20 @@ body{
     height: 50px;
 }
 
-.Titulo_seccion_publicidad{
+.Titulo_seccion_nosotros{
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 5px;
 }
+.Mapa_nosotros{
+    width: 280px;
+    border-radius: 20px;
+    height: 280px;
+    align-self: center;
+    display: flex;
+    margin: 10px ;
+}
 
-.Div_publicidad{
+.Div_nosotros{
     background-color: rgba(0, 0, 0, 0.7);
     margin: 10px 100px 0px 10px;
     border: 2px solid black;
@@ -202,12 +210,16 @@ body{
     border-radius: 20px;
     color: white;
     width: 310px;
+    display: flex;
+    align-items: center;
 }
-
-.Imagenes_articles_publicidad{
-    margin: 5px;
+.Texto_nosotros{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
 }
-
+.Mensaje_nosotros{
+    text-align: center;
+}
 .Titulo{
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
