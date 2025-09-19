@@ -368,7 +368,9 @@ body{
     flex-wrap: wrap;
     width: 556.5px;
     display: flex;
-    height: 370px;
+    height: 200px;
+    flex-direction: column;
+    align-self: center;
 }
 
 .Titulo_category{
@@ -392,4 +394,27 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     display: flex;
+}
+.Boton_3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 71, 13);
+    margin: 10px 0px 20px 10px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: smaller;
+    color: white;
+    padding: 8px;
+}
+.Precio_producto{
+    margin-bottom: 7px;
+    margin-left: 4px;
+    
+    
+}
+.Precio_barcelona{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    padding: 15px;
+    color: red;
+    
 }
