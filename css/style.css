@@ -211,8 +211,8 @@ body{
     border-radius: 20px;
     align-items: center;
     color: white;
-    width: 310px;
     display: flex;
+    width: 310px;
 }
 
 .Texto_nosotros{
