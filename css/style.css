@@ -501,8 +501,7 @@ body{
     border: 2px solid black;
     border-radius: 20px;
     margin-left: 50px;
-    margin-top: 14px;
-    margin-top: 10px;
+    margin-top: 15px;
     color: white;
     height: 40px;
     width: 200px;
@@ -510,4 +509,50 @@ body{
 
 input{
     padding-left: 10px;
+}
+@media (max-width: 600px){
+    .Menu{
+        width: 100%;
+        max-width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+        height: auto;
+        border-radius: 14px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Logo_imagen_header{
+        width: 70px;
+        height: 58px;
+        margin-bottom: 8px;
+    }
+    .Menu_header{
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .Menu_header_1{
+        width: auto;
+        padding: 8px 6px;
+        margin: 4px;
+    }
+    .Buscador_header_1{
+        width: 100%;
+        margin: 8px 0;
+        height: 38px;
+        border-radius: 12px;
+    }
+    .Usuario_header{
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .Log_in_header, .Registro_header{
+        margin: 4px;
+    }
+    .Main_total{
+        flex-direction: column;
+    }
+    
 }
