@@ -554,5 +554,31 @@ input{
     .Main_total{
         flex-direction: column;
     }
-    
+    .Seccion_1{
+        width: 100%;
+        margin: 10px auto;
+        padding: 12px;
+        border-radius: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Article_1{
+        width: 100%;
+        height: auto;
+        margin: 0 0 10px 0;
+        border-radius: 14px;
+    }
+    .Sub-titulo_1{
+        margin: 0 0 10px 0;
+    }
+    .Texto_1{
+        margin: 0 0 10px 0;
+        font-size: 14px;
+    }
+    .Boton_1{
+        margin-top: 6px;
+        padding: 8px 12px;
+        border-radius: 14px;
+    }
 }
