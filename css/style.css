@@ -79,6 +79,7 @@ body{
     margin: 30px 20px 0px 150px;
     border: 2px solid black;
     justify-content: center;
+    flex-direction: column;
     border-radius: 20px;
     align-items: center;
     flex-wrap: wrap;
@@ -92,6 +93,7 @@ body{
     margin: 30px 20px 0px 20px;
     border: 2px solid black;
     justify-content: center;
+    flex-direction: column;
     border-radius: 20px;
     align-items: center;
     flex-wrap: wrap;
@@ -100,9 +102,16 @@ body{
     width: 548px;
 }
 
+.Titulo_remeras{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
 .Article_1{
     color: white;
-    padding: 15px;
+    padding:15px;
     width: 300px;
 }
 
@@ -121,7 +130,7 @@ body{
 .Boton_1{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(0, 71, 13);
-    margin: 10px 0px 20px 10px;
+    margin: 10px 0px 30px 10px;
     text-decoration: none;
     border-radius: 20px;
     font-size: smaller;
