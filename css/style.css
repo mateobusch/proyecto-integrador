@@ -704,6 +704,23 @@ input{
 width: 470px;
 margin-left: 100px;
 }
+.Seccion_1_category{
+     width: 100%;
+        margin: 10px auto;
+        padding: 12px;
+        border-radius: 14px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 3250px;
+}
+.Seccion_1_product, .Seccion_2_product, .Seccion_3_product, .Imagen_product{
+    margin-left: 0;
+    width: 95%;
+    margin: 30px 20px 0px 10px;
+}
+
 
     
 
