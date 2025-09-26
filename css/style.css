@@ -635,4 +635,21 @@ input{
     .Formulario_login, .Formulario_registro, .Texto_1 .Texto_2{
         width: 100%;
     }
+    .Articles_clases1{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 2px 100px 0px 150px;
+    border: 2px solid black;
+    justify-content: center;
+    border-radius: 20px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    display: flex;
+    height: 100px;
+    width: 1140px;
+    }
+    .Article_search{
+        
+    }
 }
