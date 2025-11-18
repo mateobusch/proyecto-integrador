@@ -1,4 +1,4 @@
-let form= document.querySelector("form")
+let form= document.querySelector(".Formulario_registro form")
 form.addEventListener("submit", function (event) {
   event.preventDefault();
   let email= document.querySelector("#email")
