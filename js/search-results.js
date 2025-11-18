@@ -14,7 +14,8 @@ fetch(`https://dummyjson.com/products/search?q=${resultado}`)
   let secundaria = document.querySelector(".Seccion_secundaria")
   if (data.products.length == 0){
     tituloBusqueda.innerText = `No se han encontrado resultados.`
-  }else{
+  }
+  else{
     let producto = ""
     for (let i = 0; i < 10; i++) {
         console.log(data.products[i]);
