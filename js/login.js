@@ -29,5 +29,15 @@ form.addEventListener("submit", function (event) {
     let usuarioToString = JSON.stringify(usuario);
     localStorage.setItem("userName", usuarioToString);
     this.submit()
+    let recuperoStorage= localStorage.getItem("userName");
+    let usuarioRecuperado= JSON.parse(recuperoStorage);
+    let loginLink= document.querySelector(".Log_in_header")
+    let registroLink= document.querySelector(".Log_in_header")
+    let menuHeader= document.querySelector(".Menu_header")
+    if (usuario){
+      loginLink.style.display="none"
+      registroLink.style.display="none"
+    }
+
   }
 });
