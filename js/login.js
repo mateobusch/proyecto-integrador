@@ -34,10 +34,6 @@ form.addEventListener("submit", function (event) {
     let loginLink= document.querySelector(".Log_in_header")
     let registroLink= document.querySelector(".Log_in_header")
     let menuHeader= document.querySelector(".Menu_header")
-    if (usuario){
-      loginLink.style.display="none"
-      registroLink.style.display="none"
-    }
-
+    
   }
 });
