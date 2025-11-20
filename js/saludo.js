@@ -8,7 +8,12 @@ if (recuperoStorage.length >= 1){
                     <li class="Registro_header">
                     <a class="Usuario_1_header" href="#" id="logoutLink">LOG OUT</a>
                     </li>`;
-    usuarioHeader.innerHTML=headerlog
+    usuarioHeader.innerHTML = headerlog
+    let header_menu = document.querySelector(".Menu_header")
+    header_menu.style.margin = "0px 10px 0px 0px"
+    header_menu.style.width = "790px"
+    usuarioHeader.style.margin = "20px 10px 0px 0px"
+    usuarioHeader.style.width = "245px"
     let logoutLink = document.querySelector("#logoutLink")
     logoutLink.addEventListener('click', function (e){
         e.preventDefault();
@@ -21,5 +26,8 @@ if (recuperoStorage.length >= 1){
                             <a class="Usuario_1_header" href="./registro.html">REGISTRO</a>
                             </li>`;
     usuarioHeader.innerHTML = headerOriginal
+    usuarioHeader.style.margin = "auto"
+    usuarioHeader.style.width = "198.35px"
+    usuarioHeader.style.height = "48.5px"
     });
 }
