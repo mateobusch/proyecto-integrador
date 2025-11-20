@@ -10,7 +10,6 @@ form.addEventListener("submit", function (event) {
    invalidEmail.style.display = "block";
    invalidEmail.style.color= "red";
   }
- 
   else if (password.value== ""){
    let invalidPassword= document.querySelector(".Obligatorio_5")
    invalidPassword.innerHTML= "<p>Debe llenar el campo</p>";
@@ -23,17 +22,10 @@ form.addEventListener("submit", function (event) {
    invalidPassword.style.display = "block";
    invalidPassword.style.color= "red";
   }
-  
   else{
     let usuario = email.value;
     let usuarioToString = JSON.stringify(usuario);
     localStorage.setItem("userName", usuarioToString);
-    this.submit()
-    let recuperoStorage= localStorage.getItem("userName");
-    let usuarioRecuperado= JSON.parse(recuperoStorage);
-    let loginLink= document.querySelector(".Log_in_header")
-    let registroLink= document.querySelector(".Log_in_header")
-    let menuHeader= document.querySelector(".Menu_header")
-    
+    this.submit()  
   }
 });

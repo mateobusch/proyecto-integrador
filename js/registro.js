@@ -11,7 +11,6 @@ form.addEventListener("submit", function (event) {
    invalidEmail.style.display = "block";
    invalidEmail.style.color= "red";
   }
- 
   else if (password.value== ""){
    let invalidPassword= document.querySelector(".Obligatorio_2")
    invalidPassword.innerHTML= "<p>Debe llenar el campo</p>";
@@ -39,5 +38,4 @@ form.addEventListener("submit", function (event) {
   else{
     this.submit()
   }
-
 });
