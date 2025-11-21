@@ -26,7 +26,7 @@ aleatorias.innerHTML= producto_1
                     <img class="Imagenes_1" src="${data.products[i].images[0]}" alt="Imagen">
                     <h3 class="Sub-titulo_1">${data.products[i].title}</h3>
                     <p class="Texto_1">${data.products[i].description}</p>
-                    <a class="Boton_1" href="./category.html">VER MAS</a>
+                    <a class="Boton_1" href="product.html?id=${data.products[i].id}">VER MAS</a>
                 </article>`
     }
 mas_vendidas.innerHTML= producto_2
