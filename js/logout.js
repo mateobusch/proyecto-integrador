@@ -2,7 +2,6 @@ if (recuperoStorage.length >= 1){
     let logoutLink = document.querySelector("#logoutLink")
     logoutLink.addEventListener('click', function (e){
         e.preventDefault();
-        alert("Cerraste sesion")
         localStorage.removeItem("userName");
         let usuarioHeader = document.querySelector(".Usuario_header")
 
