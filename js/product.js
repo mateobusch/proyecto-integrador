@@ -39,7 +39,7 @@ fetch(`https://dummyjson.com/products/${idProducto}`)
                             <a class="Boton_3" href="#">COMPRAR</a>
                         </div>
                         <div class="Boton_producto">
-                            <a class="Boton_3" href="./category.html">${data.category}</a>
+                            <a class="Boton_3" href="./category.html?id=${data.category}">${data.category}</a>
                         </div>
                         <p class="Precio_barcelona">Queda ${data.stock} unidades en stock</p>
                         <p class="Informacion_camiseta">Lista de Tags</p>
