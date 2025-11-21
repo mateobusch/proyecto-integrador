@@ -28,16 +28,9 @@ body{
 }
 
 .Menu_header{
-    display: flex;
     flex-direction: row;
     align-items: center;
-
-  /* para que no estén pegados al logo */
-    margin: 0 0 0 120px;   /* ajústalo si querés más a la derecha */
-    padding: 0;
-
-  /* separación entre REMERAS y COSMETICOS */
-    gap: 80px;
+    display: flex;
 }
 
 .Menu_header_1{
@@ -49,7 +42,9 @@ body{
 }
 
 .Menu_header_2{
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+    margin: 0px 20px;
     color: white;
 }
 
@@ -61,7 +56,7 @@ body{
 }
 
 .Log_in_header{
-    margin: 15px 5px 15px 50px;
+    margin: 15px 5px 15px 150px;
 }
 
 .Registro_header{
@@ -544,11 +539,10 @@ body{
     background-color: rgb(49, 49, 49);
     border: 2px solid black;
     border-radius: 20px;
-    margin-left: 50px;
-    margin-top: 15px;
+    margin-left: 150px;
     color: white;
     height: 40px;
-    width: 200px;
+    width: 300px;
 }
 
 input{
