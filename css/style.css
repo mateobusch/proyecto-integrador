@@ -28,10 +28,16 @@ body{
 }
 
 .Menu_header{
-    flex-direction: row;
-    margin: 15px 20px;
-    flex-wrap: wrap;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  /* para que no estén pegados al logo */
+    margin: 0 0 0 120px;   /* ajústalo si querés más a la derecha */
+    padding: 0;
+
+  /* separación entre REMERAS y COSMETICOS */
+    gap: 80px;
 }
 
 .Menu_header_1{
