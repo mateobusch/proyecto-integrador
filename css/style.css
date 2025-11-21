@@ -411,7 +411,7 @@ body{
     flex-wrap: wrap;
     width: 556.5px;
     display: flex;
-    height: 200px;
+    height: auto;
 }
 
 .Seccion_3_product{
@@ -426,6 +426,20 @@ body{
     width: 556.5px;
     display: flex;
     height: 365px;
+}
+
+.Seccion_4_product{
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 30px 20px 0px 10px;
+    border: 2px solid black;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 556.5px;
+    display: flex;
+    height: auto;
 }
 
 .Titulo_category{

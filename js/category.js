@@ -13,8 +13,9 @@ fetch('https://dummyjson.com/products')
                     <img class="Imagenes_1" src="${data.products[i].images[0]}" alt="Imagen">
                     <h3 class="Sub-titulo_1">${data.products[i].title}</h3>
                     <p class="Texto_1">${data.products[i].description}</p>
-                    <a class="Boton_1" href="./product.html">VER MAS</a>
+                    <a class="Boton_1" href="./product.html?id=${data.products[i].id}">VER MAS</a>
                 </article>`
     }
 category.innerHTML= producto_3
+category.style.height="auto"
 })
