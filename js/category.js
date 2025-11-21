@@ -1,3 +1,5 @@
+let queryString = location.search;
+let queryParams = new URLSearchParams(queryString);
 fetch('https://dummyjson.com/products')
 .then(function(response) {
   return response.json()
